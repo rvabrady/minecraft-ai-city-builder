@@ -1,0 +1,4 @@
+﻿[
+  { "prompt": "build a bridge", "command": "/fill ~1 ~ ~1 ~10 ~1 ~3 stone" },
+  { "prompt": "tower", "command": "/setblock ~ ~ ~ cobblestone" }
+]
