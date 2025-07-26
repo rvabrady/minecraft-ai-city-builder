@@ -24,9 +24,28 @@ This project is an autonomous AI system that controls a Minecraft bot capable of
 |------|-------------|
 | `bot-city-llm.js` | Main control logic for the AI bot |
 | `structure_planner.js` | Plans builds based on prompt type and terrain |
-| `prompt_command_dataset.json` | Training data (prompt → command) |
+| `prompt_command_dataset.json` | Smaller training data sample (prompt → command) |
+| `minecraft_10k_dataset.json` | Full 10,000-pair prompt-to-command dataset |
 | `task_log.txt` | Example of structure queue logging |
 | `ollama_wrapper.sh` | Optional script to run LLM inference locally |
+
+## 🧠 Model Training Attempt
+
+We created a 10,000-sample dataset (`minecraft_10k_dataset.json`) of prompt-to-command examples to fine-tune an open-source LLM for Minecraft structure generation.
+
+**Goal:**  
+Fine-tune a model like Gemma 2B or DeepSeek 6.7B-Instruct to understand and respond with valid Minecraft building logic.
+
+**Process:**  
+- Dataset conversion to JSONL format (Alpaca-style)
+- Attempted local fine-tuning with Ollama
+- Explored LoRA/QLoRA as low-resource options
+
+**Status:**  
+Training was paused due to system resource limitations (insufficient RAM/VRAM). We're currently using few-shot prompting with a local Ollama instance for real-time command generation.
+
+**Future:**  
+We plan to resume training using Google Colab Pro or hosted GPUs via Hugging Face, with the goal of publishing a Minecraft-specialized GGUF model.
 
 ## 💻 Requirements
 
@@ -56,3 +75,4 @@ MIT License – Open-source for anyone to use, modify, or extend.
 ---
 
 Created by [James Brady](https://github.com/rvabrady)
+
