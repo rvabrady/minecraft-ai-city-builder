@@ -1,0 +1,53 @@
+From within the game - after the user joins the Minecraft server they would could do something like:
+
+//build a stone house with windows
+//build a wooden bridge over water
+//build a glass tower 50 blocks tall
+//build a cathedral with stained glass
+//build a redstone-powered railroad station
+//build a medieval castle with four towers
+//build a small village with five houses
+//build a city skyline with skyscrapers
+//build a lava moat around a fortress
+//build a floating island with a treehouse
+//build a pyramid made of sandstone
+//build an underground bunker with redstone doors
+//build a farm with wheat, carrots, and a barn
+//build a magical library with bookshelves and lanterns
+//build a rollercoaster using powered rails
+//build a hidden base behind a waterfall
+//build a futuristic dome base
+//build a pixel art mural on a stone wall
+//build a dungeon with traps and chests
+//build a zombie defense tower with lava traps
+//build a watchtower on a mountain
+//build a large hotel with balconies
+//build a sports arena with bleachers
+//build a desert town with market stalls
+//build a lighthouse on the coast
+//build a subway entrance with stairs going underground
+//build a sewer system with stone bricks
+//build a modern house with glass and concrete
+//build a greenhouse with plants and glass roof
+//build a UFO hovering over the ground
+//build a replica of the Eiffel Tower
+//build a military base with bunkers
+//build a jail with cells and guard towers
+//build a giant tree with hanging lanterns
+//build a stone wall 100 blocks long and 10 high
+//build a nether portal shrine
+//build a train station with minecart tracks
+//build a rainbow bridge across the river
+//build a castle gate with drawbridge
+//build a redstone elevator inside a tower
+//build a skybase floating at y=200
+//build a fishing hut on the lake
+//build a space shuttle on a launchpad
+//build a throne room with banners
+//build a wizard tower with potion stands
+//build a garage with a working door
+//build a teleportation room using command blocks
+//build a zoo with animal enclosures
+//build a prison escape scenario map
+//build a replica of Duke Nukem world
+//build New York City with grid-style streets
