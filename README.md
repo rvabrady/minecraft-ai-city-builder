@@ -45,7 +45,7 @@ Fine-tune a model like Gemma 2B or DeepSeek 6.7B-Instruct to understand and resp
 Training was paused due to system resource limitations (insufficient RAM/VRAM). I am currently using few-shot prompting with a local Ollama instance for real-time command generation.
 
 **Future:**  
-I plan to resume training using Google Colab Pro or hosted GPUs via Hugging Face, wi th the goal of publishing a Minecraft-specialized GGUF model.
+I plan to resume training locally using new hardware. This will allow me to fine-tune and publish a Minecraft-focused GGUF model without relying on cloud platforms like Colab or Hugging Face.
 
 ## 💻 Requirements
 
