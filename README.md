@@ -31,7 +31,7 @@ This project is an autonomous AI system that controls a Minecraft bot capable of
 
 ## 🧠 Model Training Attempt
 
-We created a 10,000-sample dataset (`minecraft_10k_dataset.json`) of prompt-to-command examples to fine-tune an open-source LLM for Minecraft structure generation.
+I created a 10,000-sample dataset (`minecraft_10k_dataset.json`) of prompt-to-command examples to fine-tune an open-source LLM for Minecraft structure generation.
 
 **Goal:**  
 Fine-tune a model like Gemma 2B or DeepSeek 6.7B-Instruct to understand and respond with valid Minecraft building logic.
